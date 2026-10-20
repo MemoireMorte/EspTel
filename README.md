@@ -6,13 +6,13 @@ Télétel (mire, Sommaire, annuaire, appel, fin de connexion chiffrée en francs
 Un portail web permet de tout régler depuis un navigateur et de mettre le
 firmware à jour sans câble.
 
-Matériel : la carte EspTel ou un devkit ESP32-WROOM-32, câblés comme la carte
-d'iodeo : UART0 sur l'USB (débogage), UART2 sur la prise du Minitel (broches
+Matériel : la [carte Esp32-Minitel-dev-kit](https://github.com/MemoireMorte/Esp32-Minitel-dev-kit) ou un devkit ESP32-WROOM-32, câblés comme la [carte
+de Iodeo](https://hackaday.io/project/180473-minitel-esp32) : UART0 sur l'USB (débogage), UART2 sur la prise du Minitel (broches
 16/17). Le firmware ne pilote aucune autre broche : les GPIO libres restent à
 l'utilisateur.
 
-Version : **0.8.2-j8**. Minitels visés : 1B et 2 ; le Minitel 1 marche en mode
-dégradé (1200 bauds, 40 colonnes).
+Version : **0.8.2-j8**. Minitels visés : 1B et 2 ; le Minitel 1 fonctionne mais en mode
+dégradé (1200 bauds, 40 colonnes max) et avec une alimentation externe.
 
 ## Sommaire
 
